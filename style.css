@@ -933,7 +933,7 @@ nav ul li a:hover {
   margin-top: 5px;
   margin-left: 20px;
 }
-.btn {
+.btn3 {
   display: inline-block;
   background-color: #b65295;
   color: white;
@@ -941,14 +941,14 @@ nav ul li a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
-  margin-left: 25px;
-  align-self: flex-start;
+  margin-right: 25px;
+  align-self: flex-end;
   transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
   text-decoration: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover {
+.btn3:hover {
   background-color: white;
   color: #b65295;
   border-radius: 5px;
@@ -956,12 +956,27 @@ nav ul li a:hover {
 }
 
 
+/*FIRST LOWER CONTAINER*/
 
 
+.lower {
+  display: flex;
+  background-color: #b65295;
+  width: 100%;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.lower1-container{
+  background-color: #b65295;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+.lower1-container img{
+  width: 100px;
+  height: auto;
+  margin: 20px;
 
-
-
-
-
-
-
+}
