@@ -762,8 +762,14 @@ nav ul li a:hover {
   padding-left: 10px;
   margin-bottom: 10px;
   width: 45%;
-  height: auto;
-  border-left: none;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+}
+
+.campus-img img:hover {
+  transform: scale(1.05);
 }
 
 .campus-img p {
